@@ -14,8 +14,6 @@
     #Centos/Rhel based distributions
     yum install tcpdump python3 python3-pip screen -y
   
-    git clone https://github.com/Dexxor/Traffic-Monitor.git
-    cd Traffic-Monitor
     pip3 install -r requirements.txt
     #Edit config.json to your liking
     screen python3 trafficmonitor.py
